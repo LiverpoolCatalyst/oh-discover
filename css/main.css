@@ -1,0 +1,81 @@
+body {
+	background-color: #FCFF00;
+
+}
+
+a {
+	text-decoration:none;
+	color: #FCFF00;
+}
+
+
+h1, h2, h3{
+	margin:0;
+	color: #FCFF00;
+	font-family:Greycliff-CF Heavy;
+}
+
+p {
+	color: #FCFF00;
+	font-family:NeutrifPro-Medium,Arial, sans-serif;
+}
+
+strong {
+	color:#FCFF00;
+}
+
+li {
+	list-style-type: none;
+}
+#container {
+	background-image: url("img/ohcohort.jpg");
+	background-color:#3200FF;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header {
+	background-color: #3200FF;
+	text-align:center;
+	padding: 10px;
+}
+
+#content{
+	padding:10px;
+}
+
+#nav{
+	width:100px;
+	float:left;
+
+}
+
+#nav.selected {
+	font-weight:bold;
+}
+
+#main{
+	width:600px;
+	float:right;
+}
+
+#footer{
+	clear:both;
+	padding:none;
+	background-color:#3200FF;
+	text-align: left;
+	color:#FCFF00;
+}
+
+#nav.selected {
+	font-weight:bold;
+
+}
+
+@font-face {
+   font-family: Greycliff-CF Heavy;
+   src: url(fonts/Greycliff-CF-Heavy.otf);
+	 font-family: NeutrifPro-Medium;
+	 src: url(fonts/NeutrifPro-Medium.otf);
+}

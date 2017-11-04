@@ -1,11 +1,11 @@
 @font-face {
 	font-family: NeutrifPro-Medium;
-	src: url('fonts/NeutrifPro-Medium.otf') format("opentype");
+	src: url('../fonts/NeutrifPro-Medium.otf') format("opentype");
  }
 
  @font-face {
 	font-family: Greycliff-CF-Heavy;
-	src: url('fonts/Greycliff-CF-Heavy.otf') format("opentype");
+	src: url('../fonts/Greycliff-CF-Heavy.otf') format("opentype");
  }
 
 body {
@@ -52,6 +52,31 @@ p {
 #bs-collapse-nav li a:hover {
 	background-color: #FCFF00;
 	color: #3200FF;
+}
+
+.people-grid img {
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.faces {
+	position: relative;
+	text-align: center;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3em;
+	color: #3200FF;
+}
+
+.hide {
+	display: none;
 }
 
 footer {

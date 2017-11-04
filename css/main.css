@@ -1,81 +1,59 @@
+@font-face {
+	font-family: NeutrifPro-Medium;
+	src: url('fonts/NeutrifPro-Medium.otf') format("opentype");
+ }
+
+ @font-face {
+	font-family: Greycliff-CF-Heavy;
+	src: url('fonts/Greycliff-CF-Heavy.otf') format("opentype");
+ }
+
 body {
-	background-color: #FCFF00;
-
-}
-
-a {
-	text-decoration:none;
+	background-color: #3200FF;
 	color: #FCFF00;
-}
-
-
-h1, h2, h3{
-	margin:0;
-	color: #FCFF00;
-	font-family:Greycliff-CF Heavy;
+	padding-top: 50px;
+	font-family: 'Greycliff-CF-Heavy', sans-serif;
 }
 
 p {
-	color: #FCFF00;
-	font-family:NeutrifPro-Medium,Arial, sans-serif;
+	font-family: 'NeutrifPro-Medium', sans-serif;
 }
 
-strong {
-	color:#FCFF00;
+.jumbotron {
+	background-color: #FCFF00;
+	color: #3200FF;
+	border-radius: 0px;
+	width: 100%;
 }
 
-li {
-	list-style-type: none;
-}
-#container {
-	background-image: url("img/ohcohort.jpg");
-	background-color:#3200FF;
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-#header {
+.navbar {
+    margin-bottom: 0;
+	border: 0;
 	background-color: #3200FF;
-	text-align:center;
-	padding: 10px;
 }
 
-#content{
-	padding:10px;
+.oh-nav a {
+	color: #FCFF00;
 }
 
-#nav{
-	width:100px;
-	float:left;
-
+.nav>li>a:hover {
+	background-color: #3200FF;
 }
 
-#nav.selected {
-	font-weight:bold;
+.icon-bar {
+	background-color: #FCFF00;
 }
 
-#main{
-	width:600px;
-	float:right;
+#bs-collapse-nav li a {
+	background-color: #3200FF;
+	color: #FCFF00;
 }
 
-#footer{
-	clear:both;
-	padding:none;
-	background-color:#3200FF;
-	text-align: left;
-	color:#FCFF00;
+#bs-collapse-nav li a:hover {
+	background-color: #FCFF00;
+	color: #3200FF;
 }
 
-#nav.selected {
-	font-weight:bold;
-
-}
-
-@font-face {
-   font-family: Greycliff-CF Heavy;
-   src: url(fonts/Greycliff-CF-Heavy.otf);
-	 font-family: NeutrifPro-Medium;
-	 src: url(fonts/NeutrifPro-Medium.otf);
+footer {
+	margin-top: 50px;
 }

@@ -17,6 +17,21 @@ body {
 
 p {
 	font-family: 'NeutrifPro-Medium', sans-serif;
+	font-size: 1.5em;
+}
+
+.content a {
+	color: #FCFF00;
+	text-decoration: underline;
+}
+
+.content a:hover {
+	color: #FCFF00;
+	font-style: italic;
+}
+
+.content a:visited {
+	color: #FCFF00;
 }
 
 .jumbotron {
@@ -71,7 +86,7 @@ p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 3em;
+	font-size: 2em;
 	color: #3200FF;
 }
 
@@ -81,4 +96,8 @@ p {
 
 footer {
 	margin-top: 50px;
+}
+
+.footer {
+	font-size: 1em;
 }

@@ -1,81 +1,115 @@
+@font-face {
+	font-family: NeutrifPro-Medium;
+	src: url('../fonts/NeutrifPro-Medium.otf') format("opentype");
+ }
+
+ @font-face {
+	font-family: Greycliff-CF-Heavy;
+	src: url('../fonts/Greycliff-CF-Heavy.otf') format("opentype");
+ }
+
 body {
-	background-color: #FCFF00;
-
-}
-
-a {
-	text-decoration:none;
+	background-color: #3200FF;
 	color: #FCFF00;
-}
-
-
-h1, h2, h3{
-	margin:0;
-	color: #FCFF00;
-	font-family:Greycliff-CF Heavy;
+	padding-top: 50px;
+	font-family: 'Greycliff-CF-Heavy', sans-serif;
 }
 
 p {
+	font-family: 'NeutrifPro-Medium', sans-serif;
+	font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Greycliff-CF-Heavy', sans-serif;
+}
+
+.content a {
 	color: #FCFF00;
-	font-family:NeutrifPro-Medium,Arial, sans-serif;
+	text-decoration: underline;
 }
 
-strong {
-	color:#FCFF00;
+.content a:hover {
+	color: #FCFF00;
+	font-style: italic;
 }
 
-li {
-	list-style-type: none;
-}
-#container {
-	background-image: url("img/ohcohort.jpg");
-	background-color:#3200FF;
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
+.content a:visited {
+	color: #FCFF00;
 }
 
-#header {
+.jumbotron {
+	background-color: #FCFF00;
+	color: #3200FF;
+	border-radius: 0px;
+	width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+	border: 0;
 	background-color: #3200FF;
-	text-align:center;
-	padding: 10px;
 }
 
-#content{
-	padding:10px;
+.oh-nav a {
+	color: #FCFF00;
 }
 
-#nav{
-	width:100px;
-	float:left;
-
+.nav>li>a:hover {
+	background-color: #3200FF;
 }
 
-#nav.selected {
-	font-weight:bold;
+.icon-bar {
+	background-color: #FCFF00;
 }
 
-#main{
-	width:600px;
-	float:right;
+#bs-collapse-nav li a {
+	background-color: #3200FF;
+	color: #FCFF00;
 }
 
-#footer{
-	clear:both;
-	padding:none;
-	background-color:#3200FF;
-	text-align: left;
-	color:#FCFF00;
+#bs-collapse-nav li a:hover {
+	background-color: #FCFF00;
+	color: #3200FF;
 }
 
-#nav.selected {
-	font-weight:bold;
-
+.people-grid img {
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-@font-face {
-   font-family: Greycliff-CF Heavy;
-   src: url(fonts/Greycliff-CF-Heavy.otf);
-	 font-family: NeutrifPro-Medium;
-	 src: url(fonts/NeutrifPro-Medium.otf);
+.faces {
+	position: relative;
+	text-align: center;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2em;
+	color: #3200FF;
+}
+
+.hide {
+	display: none;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+.footer {
+	font-size: 1em;
+}
+
+/* For personProfile.html page */
+.face img {
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }

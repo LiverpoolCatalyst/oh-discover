@@ -20,6 +20,10 @@ p {
 	font-size: 1.5em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Greycliff-CF-Heavy', sans-serif;
+}
+
 .content a {
 	color: #FCFF00;
 	text-decoration: underline;
@@ -100,4 +104,12 @@ footer {
 
 .footer {
 	font-size: 1em;
+}
+
+/* For personProfile.html page */
+.face img {
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }

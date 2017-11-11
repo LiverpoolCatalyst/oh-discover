@@ -9,8 +9,8 @@
  }
 
 body {
-	background-color: #3200FF;
-	color: #FCFF00;
+	background-color: rgb(240, 244, 169);
+	color: rgb(131, 173, 210);
 	padding-top: 50px;
 	font-family: 'Greycliff-CF-Heavy', sans-serif;
 }
@@ -20,27 +20,23 @@ p {
 	font-size: 1.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Greycliff-CF-Heavy', sans-serif;
-}
-
 .content a {
-	color: #FCFF00;
+	color: rgb(131, 173, 210);
 	text-decoration: underline;
 }
 
 .content a:hover {
-	color: #FCFF00;
+	color: rgb(131, 173, 210);
 	font-style: italic;
 }
 
 .content a:visited {
-	color: #FCFF00;
+	color: rgb(131, 173, 210);
 }
 
 .jumbotron {
-	background-color: #FCFF00;
-	color: #3200FF;
+	background-color: rgb(131, 173, 210);
+	color: rgb(240, 244, 169);
 	border-radius: 0px;
 	width: 100%;
 }
@@ -48,29 +44,29 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
     margin-bottom: 0;
 	border: 0;
-	background-color: #3200FF;
+	background-color: rgb(240, 244, 169);
 }
 
 .oh-nav a {
-	color: #FCFF00;
+	color: rgb(131, 173, 210);
 }
 
 .nav>li>a:hover {
-	background-color: #3200FF;
+	background-color: rgb(240, 244, 169);
 }
 
 .icon-bar {
-	background-color: #FCFF00;
+	background-color: rgb(131, 173, 210);
 }
 
 #bs-collapse-nav li a {
-	background-color: #3200FF;
-	color: #FCFF00;
+	background-color: rgb(240, 244, 169);
+	color: rgb(131, 173, 210);
 }
 
 #bs-collapse-nav li a:hover {
-	background-color: #FCFF00;
-	color: #3200FF;
+	background-color: rgb(240, 244, 169);
+	color: rgb(131, 173, 210);
 }
 
 .people-grid img {

@@ -9,8 +9,7 @@
  }
 
 body {
-	background-color: rgb(240, 244, 169);
-	color: rgb(131, 173, 210);
+	color: #172B47;
 	padding-top: 50px;
 	font-family: 'Greycliff-CF-Heavy', sans-serif;
 }
@@ -35,8 +34,8 @@ p {
 }
 
 .jumbotron {
-	background-color: rgb(131, 173, 210);
-	color: rgb(240, 244, 169);
+	background-color: #F1BA45;
+	color: rgb(250, 247, 163);
 	border-radius: 0px;
 	width: 100%;
 }
@@ -44,29 +43,29 @@ p {
 .navbar {
     margin-bottom: 0;
 	border: 0;
-	background-color: rgb(240, 244, 169);
+	background-color: #83BDFC;
 }
 
 .oh-nav a {
-	color: rgb(131, 173, 210);
+	color: #172B47;
 }
 
 .nav>li>a:hover {
-	background-color: rgb(240, 244, 169);
+	background-color: #83BDFC;
 }
 
 .icon-bar {
-	background-color: rgb(131, 173, 210);
+	background-color: #172B47;
 }
 
 #bs-collapse-nav li a {
-	background-color: rgb(240, 244, 169);
-	color: rgb(131, 173, 210);
+	background-color: #83BDFC;
+	color: #172B47;
 }
 
 #bs-collapse-nav li a:hover {
-	background-color: rgb(240, 244, 169);
-	color: rgb(131, 173, 210);
+	background-color: #83BDFC;
+	color: #172B47;
 }
 
 .people-grid img {
@@ -87,7 +86,7 @@ p {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 2em;
-	color: #3200FF;
+	color: #172B47;
 }
 
 .hide {

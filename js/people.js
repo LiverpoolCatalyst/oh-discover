@@ -3,7 +3,7 @@ var newSource;
 
 $('.headshot').on('mouseenter', function() {
     source = $(this).attr('src');
-    newSource = source.slice(0, -4) + '_tint.jpg';
+    newSource = source.slice(0, -9) + '.jpg';
     console.log(newSource);
     $(this).attr('src', newSource);
 });

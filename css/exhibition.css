@@ -1,3 +1,12 @@
 body {
     background-color: #F0A1A8;
 }
+
+.jumbotron {
+    background-color: #F0A1A8;    
+}
+
+#bs-collapse-nav li a:hover {
+	background-color: rgba(240, 161, 169, 0.297);
+	color: #172B47;
+}

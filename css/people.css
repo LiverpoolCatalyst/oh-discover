@@ -46,7 +46,7 @@ h4, p {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(131, 189, 252, 0.92);
+    background-color: rgba(161, 209, 72, 0.906);
   }
   
   /* Modal Content */
@@ -103,7 +103,7 @@ h4, p {
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-    background-color: rgba(131, 189, 252, 0.831);
+    background-color: rgba(161, 209, 72, 0.783);
   }
   
   /* Number text (1/3 etc) */

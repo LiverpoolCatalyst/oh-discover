@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <meta name="author" content="OH Catalyst Cohort 2017">
@@ -13,16 +13,18 @@
     <link rel="icon" type="image_tint/jpg" href="" sizes="32x32">
     <link rel="icon" type="image_tint/jpg" href="" sizes="16x16">-->
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/people.css" />
-    
-	<title>OH People</title>
+
+    <title>OH People</title>
 </head>
+
 <body>
     <!-- Nav Bar -->
-	<nav class="navbar oh-nav">
+    <nav class="navbar oh-nav">
         <div class="container">
             <div class="navbar-header">
                 <!-- Bootstrap hamburger -->
@@ -37,14 +39,20 @@
             <!-- Links on right handside -->
             <div class="collapse navbar-collapse" id="bs-collapse-nav">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" class="about">About</a></li>
-                    <li><a href="people.html" class="people">People</a></li>
-                    <li><a href="exhibition.html" class="exhibition">Exhibition</a></li>
+                    <li>
+                        <a href="index.html" class="about">About</a>
+                    </li>
+                    <li>
+                        <a href="people.html" class="people">People</a>
+                    </li>
+                    <li>
+                        <a href="exhibition.html" class="exhibition">Exhibition</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
+
     <!-- Jumpotron on home page -->
     <div class="jumbotron">
         <div class="container">
@@ -57,79 +65,400 @@
         <div class="container people-grid">
             <div class="row">
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/adam_tint.jpg" class="headshot">
+                    <img src="img/headshots/adam_tint.jpg" class="headshot" onclick="openModal();currentSlide(1)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/amyc_tint.jpg" class="headshot">
+                    <img src="img/headshots/amyc_tint.jpg" class="headshot" onclick="openModal();currentSlide(2)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/amy_tint.jpg" class="headshot">
+                    <img src="img/headshots/amy_tint.jpg" class="headshot" onclick="openModal();currentSlide(3)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/anthony_tint.jpg" class="headshot">
+                    <img src="img/headshots/anthony_tint.jpg" class="headshot" onclick="openModal();currentSlide(4)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/april_tint.jpg" class="headshot">
+                    <img src="img/headshots/april_tint.jpg" class="headshot" onclick="openModal();currentSlide(5)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/daniel_tint.jpg" class="headshot">
+                    <img src="img/headshots/daniel_tint.jpg" class="headshot" onclick="openModal();currentSlide(6)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/jacquie_tint.jpg" class="headshot">
+                    <img src="img/headshots/jacquie_tint.jpg" class="headshot" onclick="openModal();currentSlide(7)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/jade_tint.jpg" class="headshot">
+                    <img src="img/headshots/jade_tint.jpg" class="headshot" onclick="openModal();currentSlide(8)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/jake_tint.jpg" class="headshot">
+                    <img src="img/headshots/jake_tint.jpg" class="headshot" onclick="openModal();currentSlide(9)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/jay_tint.jpg" class="headshot">
+                    <img src="img/headshots/jay_tint.jpg" class="headshot" onclick="openModal();currentSlide(10)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/jess_tint.jpg" class="headshot">
+                    <img src="img/headshots/jess_tint.jpg" class="headshot" onclick="openModal();currentSlide(11)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/jorden_tint.jpg" class="headshot">
+                    <img src="img/headshots/jorden_tint.jpg" class="headshot" onclick="openModal();currentSlide(12)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/kay_tint.jpg" class="headshot">
+                    <img src="img/headshots/kay_tint.jpg" class="headshot" onclick="openModal();currentSlide(13)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/keira_tint.jpg" class="headshot">
+                    <img src="img/headshots/keira_tint.jpg" class="headshot" onclick="openModal();currentSlide(14)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/lauren_tint.jpg" class="headshot">
+                    <img src="img/headshots/lauren_tint.jpg" class="headshot" onclick="openModal();currentSlide(15)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/leanne_tint.jpg" class="headshot">
+                    <img src="img/headshots/leanne_tint.jpg" class="headshot" onclick="openModal();currentSlide(16)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/lizzie_tint.jpg" class="headshot">
+                    <img src="img/headshots/lizzie_tint.jpg" class="headshot" onclick="openModal();currentSlide(17)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/muge_tint.jpg" class="headshot">
+                    <img src="img/headshots/muge_tint.jpg" class="headshot" onclick="openModal();currentSlide(18)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/peter_tint.jpg" class="headshot">
+                    <img src="img/headshots/peter_tint.jpg" class="headshot" onclick="openModal();currentSlide(19)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/radu_tint.jpg" class="headshot">
+                    <img src="img/headshots/radu_tint.jpg" class="headshot" onclick="openModal();currentSlide(20)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/roisin_tint.jpg" class="headshot">
+                    <img src="img/headshots/roisin_tint.jpg" class="headshot" onclick="openModal();currentSlide(21)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/ross_tint.jpg" class="headshot">
+                    <img src="img/headshots/ross_tint.jpg" class="headshot" onclick="openModal();currentSlide(22)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/ruth_tint.jpg" class="headshot">
+                    <img src="img/headshots/ruth_tint.jpg" class="headshot" onclick="openModal();currentSlide(23)">
                 </div>
                 <div class="col-xs-6 col-md-3 face">
-                    <img src="img/headshots/shaun_tint.jpg" class="headshot">
+                    <img src="img/headshots/shaun_tint.jpg" class="headshot" onclick="openModal();currentSlide(24)">
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH ADAM</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH AMY</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH AMY</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH ANTHONY</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH APRIL</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH DANIEL</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JACQUIE</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">8 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JADE</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">9 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JAKE</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">10 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JAY</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">11 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JESS</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">12 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JORDEN</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">13 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH KAY</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">14 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH KIERA</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">15 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH LAUREN</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">16 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH LEANNE</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">17 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH LIZZIE</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">18 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH MUGE</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">19 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH PETER</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">20 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH RADU</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">21 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH ROISIN</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">22 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH ROSS</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">23 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH RUTH</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">24 / 24</div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH SHAUN</h4>
+                    <p>
+                        <a href="#">Twitter</a> //
+                        <a href="#">Medium</a> //
+                        <a href="#">Portfolio</a>
+                    </p>
+                </div>
+                <img src="img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
     </div>
 
     <!-- Footer -->
@@ -140,15 +469,12 @@
     </div>
 
 
-    
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-    <script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-    crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <script src="js/people.js"></script>
 </body>
+
 </html>

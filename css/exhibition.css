@@ -10,3 +10,14 @@ body {
 	background-color: rgba(241, 184, 69, 0.304);
 	color: #172B47;
 }
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 100%;
+    margin-top: 6px;
+}
+
+h4 {
+    text-align: center;
+}

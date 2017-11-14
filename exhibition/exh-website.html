@@ -18,9 +18,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/exhibition.css" />
+    <link rel="stylesheet" type="text/css" href="../css/modal.css" />
 
-
-    <title>OH Exhibition - Example</title>
+    <title>OH Exhibition - Website</title>
 </head>
 
 <body>
@@ -70,10 +70,10 @@
             </div>
             <div class="col-sm-4 people-grid">
                 <div class="col-xs-6 faces">
-                    <img src="../img/headshots/amyc_tint.jpg" class="headshot" onclick="openModal();currentSlide(2)">
+                    <img src="../img/headshots/amyc_tint.jpg" class="headshot" onclick="openModal();currentSlide(1)">
                 </div>
                 <div class="col-xs-6 faces">
-                    <img src="../img/headshots/muge_tint.jpg" class="headshot">
+                    <img src="../img/headshots/muge_tint.jpg" class="headshot" onclick="openModal();currentSlide(2)">
                 </div>
             </div>
         </div>
@@ -120,12 +120,37 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
 
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <div class="numbertext"></div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH AMY</h4>
+                    <p>
+                        <a href="https://twitter.com/thecrafty_coder" target="_blank">Twitter</a> //
+                        <a href="https://www.linkedin.com/in/amy-collin-9118373a/" target="_blank">Linkedin</a> //
+                        <a href="https://github.com/amysews" target="_blank">GitHub</a>
+                    </p>
+                </div>
+                <img src="../img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"></div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH MUGE</h4>
+                    <p>
+                        <a href="https://medium.com/@mafromist" target="_blank">Medium</a> //
+                        <a href="https://www.linkedin.com/in/mugealev/" target="_blank">Linkedin</a> //
+                        <a href="https://github.com/mafromist" target="_blank">GitHub</a>
+                    </p>
+                </div>
+                <img src="../img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+        </div>
+    </div>
 
 
 

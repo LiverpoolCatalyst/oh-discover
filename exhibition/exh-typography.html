@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/exhibition.css" />
+    <link rel="stylesheet" type="text/css" href="../css/modal.css" />
 
 
     <title>OH Exhibition - Catalyst Typography Visual</title>
@@ -72,7 +73,7 @@
                     <!-- <img src="img/headshots/keira_tint.jpg" class="headshot"> -->
                 </div>
                 <div class="col-xs-6 faces">
-                    <img src="../img/headshots/jay_tint.jpg" class="headshot">
+                    <img src="../img/headshots/jay_tint.jpg" class="headshot" onclick="openModal();currentSlide(1)">
                 </div>
             </div>
         </div>
@@ -94,18 +95,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-md-offset-1">
-                    <a href="https://www.keirevans.com/confidence-typography-poster/" target="_blank"><img src="../img/thumbnails/exhib-jay/jay-connection.jpeg" class="img-thumbnail"></a>
+                    <a href="https://www.keirevans.com/confidence-typography-poster/" target="_blank">
+                        <img src="../img/thumbnails/exhib-jay/jay-connection.jpeg" class="img-thumbnail">
+                    </a>
                 </div>
                 <div class="col-md-5">
-                    <a href="https://www.keirevans.com/confidence-typography-poster/" target="_blank"><img src="../img/thumbnails/exhib-jay/jay-confidence.jpeg" class="img-thumbnail"></a>
+                    <a href="https://www.keirevans.com/confidence-typography-poster/" target="_blank">
+                        <img src="../img/thumbnails/exhib-jay/jay-confidence.jpeg" class="img-thumbnail">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <div class="numbertext"></div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JAY</h4>
+                    <p>
+                        <a href="https://www.keirevans.com/" target="_blank">Portfolio</a> //
+                        <a href="https://www.instagram.com/keirevansdesign/" target="_blank">Instagram</a>
+                    </p>
+                </div>
+                <img src="../img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <div class="container">
@@ -119,6 +137,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script src="../js/people.js"></script>
 </body>
 
 </html>

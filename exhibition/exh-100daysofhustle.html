@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Roboto:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/exhibition.css" />
-
+    <link rel="stylesheet" type="text/css" href="../css/modal.css" />
 
     <title>OH Exhibition - #100DaysOfHustle Logo</title>
 </head>
@@ -69,10 +69,10 @@
             </div>
             <div class="col-sm-4 people-grid">
                 <div class="col-xs-6 faces">
-                    <img src="../img/headshots/jess_tint.jpg" class="headshot">
+                    <img src="../img/headshots/jess_tint.jpg" class="headshot" onclick="openModal();currentSlide(1)">
                 </div>
                 <div class="col-xs-6 faces">
-                    <img src="../img/headshots/leanne_tint.jpg" class="headshot">
+                    <img src="../img/headshots/leanne_tint.jpg" class="headshot" onclick="openModal();currentSlide(2)">
                 </div>
             </div>
         </div>
@@ -104,7 +104,32 @@
         </div>
     </div>
 
-
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <div class="numbertext"></div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH JESS</h4>
+                    <p>
+                        <a href="http://www.jess-lord.com/" target="_blank">Portfolio</a> //
+                        <a href="https://www.instagram.com/designbyjess/" target="_blank">Instagram</a>
+                    </p>
+                </div>
+                <img src="../img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext"></div>
+                <div class="container contact-links">
+                    <h4>CONNECT WITH LEANNE</h4>
+                    <p>
+                        <a href="http://www.leannejonesdesign.com/" target="_blank">Portfolio</a>
+                    </p>
+                </div>
+                <img src="../img/posters/poster-1.jpeg" style="width:100%">
+            </div>
+        </div>
+    </div>
 
 
 
@@ -120,6 +145,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script src="../js/people.js"></script>
 </body>
 
 </html>

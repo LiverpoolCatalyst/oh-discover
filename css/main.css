@@ -8,13 +8,15 @@
 	src: url('../fonts/Greycliff-CF-Heavy.otf') format("opentype");
  }
 
+@import url('https://fonts.googleapis.com/css?family=Barlow|Montserrat:800');
+
 body {
 	color: #172B47;
-	font-family: 'Greycliff-CF-Heavy', sans-serif;
+	font-family: 'Greycliff-CF-Heavy', 'Montserrat', sans-serif;
 }
 
 p {
-	font-family: 'NeutrifPro-Medium', sans-serif;
+	font-family: 'NeutrifPro-Medium', 'Barlow', sans-serif;
 	font-size: 1.5em;
 }
 
